@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="./css/index.css" rel="stylesheet">
+    <link href="./css/chat.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="window">
+    <div id="menu">
+        <label for="status-list">Status</label>
+        <select name="" id="status-list">
+            <option value="2">invisible</option>
+            <option value="3">away</option>
+            <option value="4">online</option>
+        </select>
+
+        <p>agent 1 6602966c26886becd70462f8</p>
+        <button data-name="chats-get">new requests<span id="chats_get"></span></button>
+        <button data-name="logout">logout<span id="logout"></span></button>
+        <div id="agents-list" style="border: 1px solid;"></div>
+    </div>
+    <div id="chats"></div>
+</div>
+
+<script type="module" src="./js/main.js"></script>
+</body>
+</html>

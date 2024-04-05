@@ -1,0 +1,27 @@
+#menu{
+    border: 1px solid red;
+    width: 160px;
+    height: 290px;
+}
+
+#chats{
+    border: 1px solid green;
+    height: 631px;
+}
+
+#window{
+    border: 1px solid red;
+    height: 925px;
+}
+
+#header{
+    border: 1px solid green;
+    height: 100px;
+}
+
+#body{
+    border: 1px solid blue;
+    height: 540px;
+}
+
+
